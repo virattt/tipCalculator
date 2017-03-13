@@ -13,6 +13,7 @@
 		4A41233A1E6FC3CD009D1040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4123381E6FC3CD009D1040 /* Main.storyboard */; };
 		4A41233C1E6FC3CD009D1040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A41233B1E6FC3CD009D1040 /* Assets.xcassets */; };
 		4A41233F1E6FC3CD009D1040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A41233D1E6FC3CD009D1040 /* LaunchScreen.storyboard */; };
+		4AE3AC2B1E761E58001989FA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE3AC2A1E761E58001989FA /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4A41233B1E6FC3CD009D1040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A41233E1E6FC3CD009D1040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4123401E6FC3CD009D1040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE3AC291E761E58001989FA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		4AE3AC2A1E761E58001989FA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				4A4123351E6FC3CD009D1040 /* TipViewController.h */,
 				4A4123361E6FC3CD009D1040 /* TipViewController.m */,
 				4A4123381E6FC3CD009D1040 /* Main.storyboard */,
+				4AE3AC291E761E58001989FA /* SettingsViewController.h */,
+				4AE3AC2A1E761E58001989FA /* SettingsViewController.m */,
 				4A41233B1E6FC3CD009D1040 /* Assets.xcassets */,
 				4A41233D1E6FC3CD009D1040 /* LaunchScreen.storyboard */,
 				4A4123401E6FC3CD009D1040 /* Info.plist */,
@@ -153,6 +158,7 @@
 				4A4123371E6FC3CD009D1040 /* TipViewController.m in Sources */,
 				4A4123341E6FC3CD009D1040 /* AppDelegate.m in Sources */,
 				4A4123311E6FC3CD009D1040 /* main.m in Sources */,
+				4AE3AC2B1E761E58001989FA /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +315,7 @@
 				4A4123451E6FC3CD009D1040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

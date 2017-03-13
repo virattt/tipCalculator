@@ -18,6 +18,10 @@
 
 @implementation TipViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+    [self setDefaultTip];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Tip Calculator";
@@ -50,6 +54,14 @@
     // Update the UI
     self.tipLabel.text = [NSString stringWithFormat:@"$%0.2f", tipAmount];
     self.totalLabel.text = [NSString stringWithFormat:@"$%0.2f", totalAmount];
+}
+
+- (void)setDefaultTip {
+    // Load default tip
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    long defaultTip = [defaults integerForKey:@"default_tip_index"];
+    
+    self.tipControl.selectedSegmentIndex = defaultTip;
 }
 
 
